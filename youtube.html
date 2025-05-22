@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube.com clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img
+      class="hamburger-menu" 
+      src="icons/hamburger-menu.svg">
+      <img 
+      class="youtube-logo"
+      src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img 
+        class="voice-search-icon" 
+        src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      
+      <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+      <div class="notification-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/my-channel.jpg">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscritions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/youtube-music.svg">
+      <div>Youtube-music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video-author">
+              Marques Brownlee
+            </p>
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.jpg">
+          <div class="video-time">31:38</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               I Built a Profitable AI Business in 72 Hours(No-Coding)
+            </p>
+            <p class="video-author">
+              Christian Peverelli - WeAreNoCode
+            </p>
+            <p class="video-stats">
+              90k views &#183; 7 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.jpg">
+          <div class="video-time">9:53</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               Funniest Po moments in Kung fu Panda 4k
+            </p>
+            <p class="video-author">
+              Boxoffice ANIMATION * Movie Scenes
+            </p>
+            <p class="video-stats">
+              3.2 lakh views &#183; 9 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.jpg">
+          <div class="video-time">2:49</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               Jinwoo vs All the Ice Bears | Solo Leveling Season 2 -Arise from the Shadow-
+            </p>
+            <p class="video-author">
+              Crunchyroll
+            </p>
+            <p class="video-stats">
+              2.6 lakh views &#183; 1 day ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.jpg">
+          <div class="video-time">3:28</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               Marvel Anthem | Telugu | A.R.Rahman
+            </p>
+            <p class="video-author">
+              IndiaMarvel
+            </p>
+            <p class="video-stats">
+              1.4 crore views &#183; 5 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-6.jpg">
+          <div class="video-time">5:09</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               The Art Of War (Final Battle) | Battleship | All Action
+            </p>
+            <p class="video-author">
+              All Action
+            </p>
+            <p class="video-stats">
+              2 crore views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.jpg">
+          <div class="video-time">10:46</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-7.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Madara Awakens Rinnegan and Releases God's Power!
+            </p>
+            <p class="video-author">
+              Cartoon Zone
+            </p>
+            <p class="video-stats">
+              6.2 lakh views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.jpg">
+          <div class="video-time">1:59:11</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-8.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               Full Movie| Attack on Titan Season 2 the Movie: Roar of Awakening (English Sub)
+            </p>
+            <p class="video-author">
+              Anime Manga Official
+            </p>
+            <p class="video-stats">
+              5.1 lakh views &#183; 3 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.jpg">
+          <div class="video-time">25:15</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-9.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               Gyoumei shares the feeling of his font-family member being killed by Muzan with Tanjiro ...
+            </p>
+            <p class="video-author">
+              Basket Anime
+            </p>
+            <p class="video-stats">
+              9.2 lakh views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.jpg">
+          <div class="video-time">2:33</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-10.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               Demon Slayer: Kimetsu no Yaiba Infinity Castle | Crow Reveal Video
+            </p>
+            <p class="video-author">
+              Crunchyroll
+            </p>
+            <p class="video-stats">
+              11 lakh views &#183; 4 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-11.jpg">
+          <div class="video-time">10:10</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-11.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               GoodBye, Eren. The Ending of The Final Season
+            </p>
+            <p class="video-author">
+              Hayasaka TV
+            </p>
+            <p class="video-stats">
+              48 lakh views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-12.jpg">
+          <div class="video-time">0:59</div>
+        </div>
+        <div class="video-info-grid">
+            <div class="channel-picture">
+            <img class="profile-picture" src="channel-pictures/channel-12.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+               Tanjiro uses Thunder Breathing 
+            </p>
+            <p class="video-author">
+              FlameSolos
+            </p>
+            <p class="video-stats">
+              26 lakh views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+</body>
+</html>
